@@ -89,15 +89,15 @@
 
 // QUERYSELECTORALL //
 
-let titles = document.querySelectorAll('.title');
+// let titles = document.querySelectorAll('.title');
 
-console.log(titles);
-titles[0].textContent =  'hello';
+// console.log(titles);
+// titles[0].textContent =  'hello';
 
-let odd = document.querySelectorAll('li:nth-child(odd)');
-let even = document.querySelectorAll('li:nth-child(even)');
+// let odd = document.querySelectorAll('li:nth-child(odd)');
+// let even = document.querySelectorAll('li:nth-child(even)');
 
-for (let i=0; i<odd.length; i++){
-    odd[i].style.backgroundColor = '#f4f4f4';
-    even[i].style.backgroundColor = '#ccc'
-}
+// for (let i=0; i<odd.length; i++){
+//     odd[i].style.backgroundColor = '#f4f4f4';
+//     even[i].style.backgroundColor = '#ccc'
+// }
