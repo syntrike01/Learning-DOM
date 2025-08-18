@@ -12,10 +12,19 @@ function runEvent(e) {
   // create element
   let newLi = document.createElement('li');
 
-  newLi.className = 'list-group-item';
+  newLi.className = 'list-group-item d-flex justify-content-between align-items-center';
 
   let newDivText = document.createTextNode(inputEl.value);
   newLi.appendChild(newDivText);
+
+  // create del button
+  const dltBtn = document.createElement('button');
+
+  dltBtn.className = 'btn btn-danger btn-sm delete';
+
+  dltBtn.appendChild(document.createTextNode('X'));
+
+  newLi.appendChild(dltBtn);
 
   ulEl.appendChild(newLi);
 }
